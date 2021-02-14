@@ -1,0 +1,52 @@
+.cajaPrincipal{
+    display: grid;
+    grid-template-columns: 1fr 20px 0.5fr 0.5fr 20px 1fr;
+    grid-template-rows: 1px 100rem 10px;
+}
+
+.arcenIzquierdo{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-color: grey;
+    border-right: 4px solid white;
+}
+
+.carrilIzquierdo{
+    grid-column: 3/4;
+    grid-row: 2/3;
+    background-color: grey;
+    border-right: 5px white dashed;
+}
+
+.carrilDerecho{
+    grid-column: 4/5;
+    grid-row: 2/3;
+    background-color: grey;
+    border-left: 5px white dashed;
+    
+    
+}
+
+.arcenDerecho{
+    grid-column: 5/6;
+    grid-row: 2/3;
+    background-color: grey;
+    border-left: 4px solid white;
+}
+
+.formula{
+    grid-column: 3/5;
+    grid-row: 2/3;
+    background-image: url(../assets/formula2.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    width: 100vw;
+    height: 100vh;
+    justify-self:center;
+}
+
+h2{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
